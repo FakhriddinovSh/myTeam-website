@@ -72,6 +72,13 @@ body{
   overflow: hidden;
 }
 
+ul,
+li
+{
+  margin: 0;
+  padding: 0;
+}
+
 /* CONTAINER */
 
 .container{
@@ -217,3 +224,111 @@ opacity: 0.8;
 
 
 
+.site-header{
+  padding-top: 77px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo{
+  margin-right: 80px;
+}
+
+.header__left__box{
+  display: flex;
+  align-items: center;
+}
+
+.header__list{
+  display: flex;
+  list-style: none;
+}
+
+.header__item:first-child{
+  margin-right: 40px;
+}
+
+.header__link{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+   color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__link:hover{
+  color: #F67E7E;
+}
+
+.header__btn{
+  padding-top: 9px;
+  padding-right: 33px;
+  padding-bottom: 11px;
+  padding-left: 32px;
+  background: transparent;
+  border: 2px solid var(--main-text-color);
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+
+.header__btn:hover{
+  background-color: var(--main-text-color);
+  color: #002529;
+}
+
+.hero-section{
+  position: relative;
+  padding-top: 133px;
+  padding-bottom: 170px;
+  background-image: url("../images/hero-section__before.svg"), 
+  url("../images/hero-section__after.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + -770px) calc(50% + -30px), calc(50% + 400px) calc(50% + 320px);
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+}
+
+.hero__title{
+  width: 615px;
+}
+
+.hero__heading{
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: var(--main-text-color);
+}
+
+.hero__info{
+  width: 445px; 
+}
+
+.hero__desc{
+  position: relative;
+  top: 35px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+
+.hero__desc::before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/hero__before.svg");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 4px;
+  top: -79px;
+}
