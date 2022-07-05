@@ -75,7 +75,7 @@ body{
 /* CONTAINER */
 
 .container{
-  /* max-width: your-size-here; */
+  max-width: 1150px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 20px;
