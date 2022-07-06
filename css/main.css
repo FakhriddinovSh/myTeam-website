@@ -558,6 +558,40 @@ li
   padding-bottom: 48px;
 }
 
+/* clients */
+
+.clients{
+  padding: 140px 0 150px 0;
+  background-color: #012F34;
+  background-image: url(../images/clients-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: calc(50% - 660px) calc(50% - 129px);
+}
+
+.clients__list{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients__title{
+  margin: 0;
+  font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 70px;
+}
+/* clients */
+
 .footer{
   display: flex;
   justify-content: space-between;
