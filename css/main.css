@@ -637,6 +637,10 @@ opacity: 0.8;
   padding-top: 140px;
   padding-bottom: 168px;  
   background-color: #004047;
+  background-image: url("../images/directors-befor.svg"), url("../images/directors-after.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50% + -770px), calc(50% + 760px);
+  background-position-y: calc(50% + -480px), bottom;
 }
 
 .directors__heading__box{
