@@ -539,6 +539,7 @@ li
   padding-bottom: 30px;
   background-image: url("../images/started-bg.svg");
   background-repeat: no-repeat;
+  background-position-x: calc(50% + -700px);
   background-position-y: calc(50% + 75px);
   background-color: #F67E7E;
 }
