@@ -272,6 +272,12 @@ opacity: 0.8;
   color: #F67E7E;
 }
 
+.directors__heading__box{
+  width: 920px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
 .header__btn,
 .started__btn
 {
