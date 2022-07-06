@@ -306,7 +306,9 @@ opacity: 0.8;
   border-radius: 24px;
 }
 
-.hero-section{
+.hero-section,
+.about__hero-section
+{
   position: relative;
   padding-top: 133px;
   padding-bottom: 170px;
@@ -314,6 +316,11 @@ opacity: 0.8;
   url("../images/hero-section__after.svg");
   background-repeat: no-repeat;
   background-position: calc(50% + -770px) calc(50% + -30px), calc(50% + 400px) calc(50% + 320px);
+}
+
+.about__hero-section{
+  background-image: url("../images/about-hero-section-after.svg");
+  background-position: calc(50% + 760px) calc(50% + 165px);
 }
 
 .hero{
@@ -325,7 +332,13 @@ opacity: 0.8;
   width: 615px;
 }
 
-.hero__heading{
+.about__hero__title{
+  width: 350px;
+}
+
+.hero__heading,
+.about__hero__heading
+{
   font-weight: 700;
   font-size: 100px;
   line-height: 100px;
@@ -336,7 +349,14 @@ opacity: 0.8;
   width: 445px; 
 }
 
-.hero__desc{
+.about__hero__info{
+  width: 730px;
+  margin-left: 100px;
+}
+
+.hero__desc,
+.about__hero__desc
+{
   position: relative;
   top: 35px;
   font-weight: 600;
@@ -349,6 +369,16 @@ opacity: 0.8;
   position: absolute;
   content: "";
   background-image: url("../images/hero__before.svg");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 4px;
+  top: -79px;
+}
+
+.about__hero__desc::before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/about-hero-before.svg");
   background-repeat: no-repeat;
   width: 50px;
   height: 4px;
@@ -596,3 +626,4 @@ opacity: 0.8;
   mix-blend-mode: normal;
   opacity: 0.6;
 }
+
