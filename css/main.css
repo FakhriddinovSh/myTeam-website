@@ -633,6 +633,46 @@ opacity: 0.8;
   opacity: 0.6;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .directors{
   padding-top: 140px;
   padding-bottom: 168px;  
@@ -802,7 +842,6 @@ opacity: 0.8;
 
 
 .directors__back{
-  display: none;
   position: absolute;
   content: "";
   top: 0;
@@ -846,4 +885,9 @@ opacity: 0.8;
 
 .directors__social__item:hover{
   color: #F67E7E;
+}
+
+
+.directors__inner{
+  position: relative;
 }
