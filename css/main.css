@@ -2,7 +2,7 @@
 
 :root{
   --main-text-color : #fff;
- 
+  
 }
 
 
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
   src:
-       url("../fonts/livvic-v13-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url("../fonts/livvic-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url("../fonts/livvic-v13-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/livvic-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* livvic-600 - latin */
 @font-face {
@@ -21,8 +21,8 @@
   font-style: normal;
   font-weight: 600;
   src:
-       url("../fonts/livvic-v13-latin-600.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url("../fonts/livvic-v13-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url("../fonts/livvic-v13-latin-600.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/livvic-v13-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* livvic-700 - latin */
 @font-face {
@@ -30,8 +30,8 @@
   font-style: normal;
   font-weight: 700;
   src:
-       url("../fonts/livvic-v13-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url("../fonts/livvic-v13-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url("../fonts/livvic-v13-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/livvic-v13-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* GENERAL */
@@ -130,11 +130,11 @@ li
 .info__title{
   margin: 0;
   font-family: 'Livvic';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 48px;
-color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--main-text-color);
 }
 
 .build__menu{
@@ -203,23 +203,23 @@ color: var(--main-text-color);
   margin: 0;
   margin-bottom: 16px;
   font-family: 'Livvic';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-color: #F67E7E;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
 }
 
 .menu__text{
   margin: 0;
   font-family: 'Livvic';
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 25px;
-color: var(--main-text-color);
-mix-blend-mode: normal;
-opacity: 0.8;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-text-color);
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
 
 
@@ -262,7 +262,7 @@ opacity: 0.8;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-   color: #FFFFFF;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -291,7 +291,7 @@ opacity: 0.8;
 
 .started__btn{
   border: 2px solid #012F34;
-
+  
 }
 
 .header__btn:hover
@@ -438,7 +438,7 @@ opacity: 0.8;
   width: 67px;
   height: 56px;
   background-image: url("../images/icon.svg");
-
+  
 }
 
 .result__item:nth-child(1){
@@ -622,8 +622,165 @@ opacity: 0.8;
   font-size: 15px;
   line-height: 25px;
   text-align: right;
-  color: #FFFFFF;
+  color: var(--main-text-color);
   mix-blend-mode: normal;
   opacity: 0.6;
 }
+
+.directors{
+  padding-top: 140px;
+  padding-bottom: 168px;  
+  background-color: #004047;
+}
+
+.directors__heading__box{
+  width: 920px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.directors__heading-content{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.directors__list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.directors__item{
+  position: relative;
+  width: 350px;
+  margin-bottom: 76px;
+  margin-right: 30px;
+  background: #012F34;
+}
+
+.directors__item:first-child:before{
+  position: absolute;
+  content: "";
+  top: 32px; 
+  left: 127px;
+  width: 96px;
+  height: 96px;
+  background-image: url("../images/directors-one.jpg");
+  background-repeat: no-repeat;
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+}
+
+.directors__item:nth-child(2):before{
+  top: 32px; 
+  left: 127px;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  content: "";
+  background-image: url("../images/directors-two.jpg");
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+}
+
+.directors__item:nth-child(3):before{
+  top: 32px; 
+  left: 127px;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  content: "";
+  background-image: url("../images/directors-three.jpg");
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+}
+
+.directors__item:nth-child(4):before{
+  top: 32px; 
+  left: 127px;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  content: "";
+  background-image: url("../images/directors-four.jpg");
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+}
+
+.directors__item:nth-child(5):before{
+  top: 32px; 
+  left: 127px;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  content: "";
+  background-image: url("../images/directors-five.jpg");
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+}
+
+.directors__item:nth-child(6):before{
+  top: 32px; 
+  left: 127px;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  content: "";
+  background-image: url("../images/directors-one.jpg");
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+}
+
+
+.directors__content__box{
+  text-align: center;
+  padding-top: 144px;
+  padding-right: 24px;
+  padding-bottom: 56px;
+  padding-left: 24px;
+}
+
+.directors__content__box > h3{
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+
+.directors__content__box > i{
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.directors__icon{
+  position: absolute;
+  bottom: -28px;
+  left: 42%;
+  width: 56px;
+  height: 56px;
+  background-image: url("../images/+.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F67E7E;
+  border-radius: 50%;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.directors__icon:hover{
+  transform: rotate(45deg);
+  background-color: #79C8C7;
+}
+
+
+
 
