@@ -272,6 +272,12 @@ li
   color: #F67E7E;
 }
 
+.directors__heading__box{
+  width: 920px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
 .header__btn,
 .started__btn
 {
@@ -665,6 +671,13 @@ margin-bottom: 70px;
   padding-top: 140px;
   padding-bottom: 168px;  
   background-color: #004047;
+<<<<<<< HEAD
+=======
+  background-image: url("../images/directors-befor.svg"), url("../images/directors-after.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(50% + -770px), calc(50% + 760px);
+  background-position-y: calc(50% + -480px), bottom;
+>>>>>>> shahobiddin-about
 }
 
 .directors__heading__box{
@@ -808,6 +821,7 @@ margin-bottom: 70px;
   border-radius: 50%;
   transition: transform 0.5s ease;
   cursor: pointer;
+<<<<<<< HEAD
 }
 
 .directors__icon:hover{
@@ -818,3 +832,68 @@ margin-bottom: 70px;
 
 
 
+=======
+  z-index: 10;
+  border: none;
+}
+
+.directors__icon:hover{
+  background-color: #79C8C7;
+}
+
+.directors__icon:active{
+  transform: rotate(45deg);
+  background: #F67E7E;
+  background-image: url("../images/+.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.directors__back{
+  display: none;
+  position: absolute;
+  content: "";
+  top: 0;
+  padding: 0 48px;
+  padding-top: 35px;
+  padding-bottom: 48px;
+  background-color: #002529;
+}
+
+.directors__icon:active ~ .directors__back{
+  display: block;
+}
+
+.directors__back > h3{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+
+.directors__back > p{
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.directors__social__link{
+  margin-left: 95px;
+}
+
+.directors__social__item{
+  color: var(--main-text-color);
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.directors__social__item:hover{
+  color: #F67E7E;
+}
+>>>>>>> shahobiddin-about
