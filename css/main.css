@@ -355,6 +355,149 @@ opacity: 0.8;
   top: -79px;
 }
 
+/* style result */
+
+.result {
+  padding: 140px 0 245px 0;
+  background-image: url("../images/result-one.png"), url("../images/result-two.png");
+  background-repeat: no-repeat;
+  background-size: 147px 100px, 200px 100px;
+  background-position: calc(50% - 690px) calc(0%),  calc(50% + 660px) calc(100%);
+}
+
+.result__content {
+  width: 932px;
+  margin:  0 auto;
+}
+
+.result__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.result__title > span {
+  color: #79C8C7;
+}
+
+.result__list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 92px;
+}
+
+.result__item {
+  width: 380px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.result__item::before {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: -1;
+  content: "";
+  display: block;
+  width: 67px;
+  height: 56px;
+  background-image: url("../images/icon.svg");
+
+}
+
+.result__item:nth-child(1){
+  position: relative;
+}
+
+.result__item:nth-child(1)::after{
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  
+  left: 0;
+  right: 0;
+  bottom: -70px;
+  margin: 0 auto;
+  content: "";
+  display: block;
+  background-image: url("../images/ava-one.svg");
+  background-repeat: no-repeat;
+  background-size:contain ;
+}
+
+.result__item:nth-child(2){
+  position: relative;
+}
+
+.result__item:nth-child(2)::after{
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -70px;
+  margin: 0 auto;
+  content: "";
+  display: block;
+  background-image: url("../images/ava-two.svg");
+  background-repeat: no-repeat;
+  background-size:contain ;
+}
+
+.result__item:nth-child(3){
+  position: relative;
+}
+
+.result__item:nth-child(3)::after{
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -70px;
+  margin: 0 auto;
+  content: "";
+  display: block;
+  background-image: url("../images/ava-thri.svg");
+  background-repeat: no-repeat;
+  background-size:contain ;
+}
+
+
+.result__blockquote {
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 0;
+  margin-bottom: 24px;
+  margin-bottom: auto;
+}
+
+.result__username {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+}
+
+.result__job {
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin: 2px 0 32px;
+}
+
+.result__avatar {
+  margin: 0 auto;
+}
+
 .started{
   padding-top: 30px;
   padding-bottom: 30px;
