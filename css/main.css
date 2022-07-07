@@ -1,14 +1,10 @@
 /* VARIABLES */
 :root{
   --main-text-color : #fff;
-<<<<<<< HEAD
-  
-=======
   --main-bg-color: #014e56;
   --main-light-red: #f67e7e;
   --main-dark-blue: #012F34;
   --main-light-green: #79C8C7;
->>>>>>> shahobiddin-about
 }
 
 
@@ -135,11 +131,7 @@ li
 
 .info__title{
   margin: 0;
-<<<<<<< HEAD
   font-family: 'Livvic';
-=======
-  font-family: "Livvic";
->>>>>>> shahobiddin-about
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -212,29 +204,19 @@ li
 .menu__title{
   margin: 0;
   margin-bottom: 16px;
-<<<<<<< HEAD
   font-family: 'Livvic';
-=======
   font-family: "Livvic";
->>>>>>> shahobiddin-about
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
-<<<<<<< HEAD
   color: #F67E7E;
-=======
   color: var(--main-light-red);
->>>>>>> shahobiddin-about
 }
 
 .menu__text{
   margin: 0;
-<<<<<<< HEAD
-  font-family: 'Livvic';
-=======
   font-family: "Livvic";
->>>>>>> shahobiddin-about
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -284,11 +266,8 @@ li
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-<<<<<<< HEAD
   color: #FFFFFF;
-=======
   color: var(--main-text-color);
->>>>>>> shahobiddin-about
   text-decoration: none;
 }
 
@@ -322,12 +301,8 @@ li
 }
 
 .started__btn{
-<<<<<<< HEAD
   border: 2px solid #012F34;
-=======
   border: 2px solid var(--main-dark-blue);
->>>>>>> shahobiddin-about
-  
 }
 
 .header__btn:hover
@@ -569,11 +544,7 @@ li
   padding-bottom: 30px;
   background-image: url("../images/started-bg.svg");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-position-x: calc(50% + -700px);
-=======
   background-position-x: calc(50% + -690px);
->>>>>>> shahobiddin-about
   background-position-y: calc(50% + 75px);
   background-color: var(--main-light-red);
 }
@@ -756,7 +727,6 @@ li
   left: 143px;
   width: 56px;
   height: 56px;
-<<<<<<< HEAD
   background-image: url("../images/+.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -769,11 +739,9 @@ li
 .directors__icon:hover{
   transform: rotate(45deg);
   background-color: #79C8C7;
-=======
   border-radius:50%;
   background-color: var(--main-light-red);
   transition: transform 0.5s;
->>>>>>> shahobiddin-about
 }
 
 .directors__span:hover{
@@ -858,11 +826,10 @@ li
   color: var(--main-text-color);
 }
 
-<<<<<<< HEAD
 .directors__social__item:hover{
   color: #F67E7E;
 }
-=======
+
 .directors__social__link > a:hover{
   color: var(--main-light-red);
 }
@@ -886,4 +853,138 @@ li
   margin-bottom: 24px;
   color: var(--main-text-color);
 }
->>>>>>> shahobiddin-about
+
+.contact{
+  padding-top: 124px;
+  padding-bottom: 128px;
+  background-image: url("../images/hero-section__before.svg"), 
+  url("../images/contact__after.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + -770px) calc(50% + -100px), calc(50% + 750px) calc(50% + 320px);
+}
+
+.contact__box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__info{
+  width: 500px;
+}
+
+.contact__heading{
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: var(--main-text-color);
+}
+
+.contact__desc{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #F67E7E;
+}
+
+.contact__list{
+  margin-top: 54px;
+  list-style: none;
+}
+
+.contact__item{
+  position: relative;
+  left: 90px;
+  margin-bottom: 52px;
+}
+
+.contact__item:first-child::before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/pic-one.svg");
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  left: -100px;
+  top: -30px;
+}
+
+.contact__item:nth-child(2):before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/pic-two.svg");
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  left: -100px;
+  top: -30px;
+}
+
+.contact__item:nth-child(3):before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/pic-thri.svg");
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  left: -100px;
+  top: -30px;
+}
+
+
+.contact__subheading{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+
+.contact__login{
+  width: 540px;
+  padding-top: 20px;
+}
+
+.contact__input{
+  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+  padding-top: 16px;
+  padding-left: 15px;
+  padding-bottom: 16px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid var(--main-text-color);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: var(--main-text-color);
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  outline: none;
+}
+
+.contact__input:focus{
+  box-shadow: 0 0 10px var(--main-text-color);
+}
+
+.contact__textarea{
+  height: 80px;
+}
+
+.contact__button{
+  display: inline-block;
+  margin-top: 24px;
+  padding: 0 32px;
+  padding-top: 9px;
+  padding-bottom: 11px;
+  background: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #004047;
+  cursor: pointer;
+}
