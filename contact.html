@@ -76,27 +76,33 @@
                         <form class="contact__form" action="https://echo.htmlacademy.ru/courses" method="post"
                             autocomplete="off">
                             <label>
-                                <input class="contact__input" type="text" placeholder="Name" name="user_name" required>
+                                <input class="contact__input" type="text" placeholder="Name" name="user_name"
+                                    minlength="3" maxlength="10" required>
+                                <span class="contact__span">This field is required</span>
                             </label>
 
                             <label>
                                 <input class="contact__input" type="email" placeholder="Email Address" name="user_email"
                                     required>
+                                <span class="contact__span">This field is required</span>
                             </label>
 
                             <label>
                                 <input class="contact__input" type="text" placeholder="Company Name"
-                                    name="user_company_name" required>
+                                    name="user_company_name" minlength="3" maxlength="10" required>
+                                <span class="contact__span">This field is required</span>
                             </label>
 
                             <label>
                                 <input class="contact__input" type="text" placeholder="Title Name" name="user_title"
-                                    required>
+                                    minlength="3" maxlength="10" required>
+                                <span class="contact__span">This field is required</span>
                             </label>
 
                             <label>
                                 <textarea class="contact__input contact__textarea" name="user__message" cols="30"
-                                    rows="10" placeholder="Message" required></textarea>
+                                    rows="10" placeholder="Message" minlength="1" maxlength="20" required></textarea>
+                                <span class="contact__span">This field is required</span>
                             </label>
 
                             <button class="contact__button" type="submit">submit</button>
